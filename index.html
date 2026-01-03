@@ -1,99 +1,201 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Analyst Portfolio - Onwura Tobe</title>
-    <link rel="stylesheet" href="src/css/main.css">
-</head>
-<body>
-    <header>
-        <h1>My Data Analyst Portfolio </h1>
-    </header>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Tobe Onwura Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-    <div class="profile-card">
-        <img src="src/media/images/profile.jpg" alt="My Photo" class="profile-photo">
-        <div class="bio">
-            <h2>Tochukwu Onwura</h2>
-            <p>Data Analyst | AI Enthusiast | Java & Python Developer. Passionate about data-driven solutions and building projects that make an impact.</p>
-        </div>
-    </div>
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
 
-    <main>
-        <section class="project">
-            <h2>An end-to-end, Wranglin, EDA, Visualization, Insight, Recommendation - with Excel and PowerBI</h2>
-            <p class="description">In this project, we explored sales data from a supermarket to identify trends and patterns.</p>
-            <div class="action-button">
-                <button class="dashboard-btn" onclick="showDashboard('project1')">See Dashboard</button>
-                <button class="repo-btn" onclick="openRepo('dataproject1')">See Full Project </button>
-            </div>
-            <div id="project1-dashboard" class="dashboard-preview">
-                <img src="src/media/images/project1-dashboard.png" alt="Supermart Sales Dashboard">
-            </div>
-        </section>
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Data Analysis Portfolio</h1>
+						<h3>- Tochukwu Emmanuel Onwura -</h3>
+						<p>A Data Analyst skilled in
+							 <a href="#sql-project">SQL</a>, 
+							 <a href="#excel-project">Excel</a>, 
+							 <a href="#powerbi-project">Power BI</a>, 
+							 <a href="#tableau-project">Tableau</a>, 
+							 and <a href="#python-project">Python libraries e.g NumPy, Pandas, Matplotlib, and Seaborn</a>
+						.</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
 
-        <section class="project">
-            <h2>An end-to-end, Wranglin, EDA, Visualization, Insight, Recommendation - with SQL and Tableau</h2>
-            <p class="description">In this project, we explored sales data from a supermarket to identify trends and patterns.</p>
-            <div class="action-button">
-                <button class="dashboard-btn" onclick="showDashboard('project2')">See Dashboard</button>
-                <button class="repo-btn" onclick="openRepo('dataproject2')">See Full Project </button>
-            </div>
-            <div id="project2-dashboard" class="dashboard-preview">
-                <img src="src/media/images/project2-dashboard.png" alt="Supermart Sales Dashboard">
-            </div>
-        </section>
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Projects</a>
+					</header>
 
-        <section class="project">
-            <h2>An end-to-end, Wranglin, EDA, Visualization, Insight, Recommendation - with Excel and Tableau</h2>
-            <p class="description">In this project, we explored sales data from a supermarket to identify trends and patterns.</p>
-            <div class="action-button">
-                <button class="dashboard-btn" onclick="showDashboard('project3')">See Dashboard</button>
-                <button class="repo-btn" onclick="openRepo('dataproject3')">See Full Project </button>
-            </div>
-            <div id="project3-dashboard" class="dashboard-preview">
-                <img src="src/media/images/project3-dashboard.png" alt="Supermart Sales Dashboard">
-            </div>
-        </section>
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">HOME</a></li>
+							<li><a href="sql.html">SQL PROJECT</a></li>
+							<li><a href="excel.html">EXCEL PROJECT</a></li>
+							<li><a href="powerbi.html">POWER BI PROJECT</a></li>
+							<li><a href="tableau.html">TABLEAU PROJECT</a></li>
+							<li><a href="python.html">PYTHON PROJECT</a></li>
+						</ul>
+						<!-- <ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul> -->
+					</nav>
 
-        <section class="project">
-            <h2>A project leaning heavy on using SQL visualization with PowerBI</h2>
-            <p class="description">In this project, we explored sales data from a supermarket to identify trends and patterns.</p>
-            <div class="action-button">
-                <button class="dashboard-btn" onclick="showDashboard('project4')">See Dashboard</button>
-                <button class="repo-btn" onclick="openRepo('dataproject4')">See Full Project </button>
-            </div>
-            <div id="project4-dashboard" class="dashboard-preview">
-                <img src="src/media/images/project4-dashboard.png" alt="Supermart Sales Dashboard">
-            </div>
-        </section>
+				<!-- Main -->
+					<div id="main">
 
-        <section class="project">
-            <h2>A project heavy on modeling and forcasting with python and visualization with matplotlib and seaborn</h2>
-            <p class="description">In this project, we explored sales data from a supermarket to identify trends and patterns.</p>
-            <div class="action-button">
-                <button class="dashboard-btn" onclick="showDashboard('project5')">See Dashboard</button>
-                <button class="repo-btn" onclick="openRepo('dataproject5')">See Full Project </button>
-            </div>
-            <div id="project5-dashboard" class="dashboard-preview">
-                <img src="src/media/images/project5-dashboard.png" alt="Supermart Sales Dashboard">
-            </div>
-        </section>
+						<!-- Featured Post -->
+							<article id="sql-project" class="post featured">
+								<header class="major">
+									<span class="date">April 25, 2017</span>
+									<h2>SQL Project</h2>
+									<p>
+										Analyzed a 400,000 rows of sales data for insight that will be useful for a business
+										decision. Full end-to-end project with SQL involving Data Cleaning, EDA, Cummilative Analysis,
+										Trend Analysis, etc (NB: polish keywords later).
+									</p>
+								</header>
+								<a href="#" class="image main"><img src="images/sqlproject.jpg" alt="" /></a>
+								<ul class="actions special">
+									<li><a href="#" class="button large">Full Project Report</a></li>
+								</ul>
+							</article>
 
-        
-        <div class="carousel">
-            <div class="slides">
-                <img src="src/media/certs/cert1.jpg" alt="Certificate 1">
-                <img src="src/media/certs/cert2.jpg" alt="Certificate 2">
-                <img src="src/media/certs/cert3.jpg" alt="Certificate 3">
-            </div>
-        </div>
-    </main>
+						<!-- Posts -->
+							<section class="posts">
+								<article id="excel-project">
+									<header>
+										<span class="date">April 24, 2017</span>
+										<h2>Excel Project</h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/excelproject.jpg" alt="" /></a>
+									<p>
+										A Full end-to-end project with Microsoft Excel involving Data Cleaning, EDA,
+										Trend Analysis, etc (NB: polish keywords later).
+									</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Project Report</a></li>
+									</ul>
+								</article>
+								<article id="powerbi-project">
+									<header>
+										<span class="date">April 22, 2017</span>
+										<h2>Power BI Project</h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/powerbiproject.jpg" alt="" /></a>
+									<p>
+										A Full end-to-end project with Microsoft Power BI involving Data Cleaning, EDA,
+										Visualization, etc (NB: polish keywords later).
+									</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Project Report</a></li>
+									</ul>
+								</article>
+								<article id="tableau-project">
+									<header>
+										<span class="date">April 18, 2017</span>
+										<h2>Tableau Project</h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/tableauproject.jpg" alt="" /></a>
+									<p>
+										A Full end-to-end project with Tableau involving Data Cleaning, EDA,
+										Trend Analysis, Visualization, etc (NB: polish keywords later).
+									</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Project Report</a></li>
+									</ul>
+								</article>
+								<article id="python-project">
+									<header>
+										<span class="date">April 14, 2017</span>
+										<h2>Python Project</h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pythonproject.jpg" alt="" /></a>
+									<p>
+										A Full end-to-end project with Python using libraries like: Numpy, Pandas,
+										Matplotlib, and Seaborn to carry out Data Cleaning, EDA, Analyses, etc (NB: polish keywords later).
+									</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Project Report</a></li>
+									</ul>
+								</article>
+							</section>
+					</div>
 
-    <footer>
-        <p>&copy; 2025 </br>Tochukwu Emmanuel Onwura. </br>All rights reserved.</p>
-    </footer>
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>Unguwan Boro, Sabon Tasha<br />
+								Kaduna State, Nigeria</p>
+							</section>
+							<section>
+								<h3>Phone /<br />WhatsApp</h3>
+								<p><a href="https://wa.me/2347089217259">+2347089217259</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="mailto:tobeonwura@gmail.com">tobeonwura@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="https://www.linkedin.com/in/tochukwu-onwura-43598a302" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
 
-    <script src="src/js/main.js"></script>
-</body>
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
