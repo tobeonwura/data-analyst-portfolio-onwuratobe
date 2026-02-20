@@ -4682,3 +4682,12 @@ input, select, textarea {
 		}
 
 	}
+
+/* Center social icons nicely */
+.post .icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+	font-size: 1.5rem;
+}

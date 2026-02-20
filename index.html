@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <title>Tobe Onwura Portfolio</title>
@@ -6,6 +6,11 @@
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <!-- Font Awesome 6 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript
@@ -50,12 +55,19 @@
       <nav id="nav">
         <ul class="links">
           <li class="active"><a href="index.html">HOME</a></li>
+          <li><a href="#sql-project">SQL PROJECT</a></li>
+          <li><a href="#excel-project">EXCEL PROJECT</a></li>
+          <li><a href="#powerbi-project">POWER BI PROJECT</a></li>
+          <li><a href="#tableau-project">TABLEAU PROJECT</a></li>
+          <li><a href="#python-project">PYTHON PROJECT</a></li>
+          <li><a href="#contact">CONTACTS</a></li>
+          <!--<li class="active"><a href="index.html">HOME</a></li>
           <li><a href="assets/pages/sql.html">SQL PROJECT</a></li>
           <li><a href="assets/pages/excel.html">EXCEL PROJECT</a></li>
           <li><a href="assets/pages/powerbi.html">POWER BI PROJECT</a></li>
           <li><a href="assets/pages/tableau.html">TABLEAU PROJECT</a></li>
           <li><a href="assets/pages/python.html">PYTHON PROJECT</a></li>
-          <li><a href="#footer">CONTACTS</a></li>
+          <li><a href="#contact">CONTACTS</a></li>-->
         </ul>
       </nav>
 
@@ -77,7 +89,13 @@
             ><img src="images/sqlproject.jpg" alt=""
           /></a>
           <ul class="actions special">
-            <li><a href="#" class="button large">Full Project Report</a></li>
+            <li>
+              <a
+                href="https://github.com/tobeonwura/dataproject1"
+                class="button large"
+                >Full Project Report</a
+              >
+            </li>
           </ul>
         </article>
 
@@ -151,88 +169,100 @@
           </article>
         </section>
 
-        <!-- Footer -->
-        <footer>
-          <div class="pagination">
-            <!--<a href="#" class="previous">Prev</a>-->
-            <a href="#" class="page active">1</a>
-            <a href="#" class="page">2</a>
-            <a href="#" class="page">3</a>
-            <span class="extra">&hellip;</span>
-            <a href="#" class="page">8</a>
-            <a href="#" class="page">9</a>
-            <a href="#" class="page">10</a>
-            <a href="#" class="next">Next</a>
-          </div>
-        </footer>
-      </div>
+        <section id="contact" class="post">
+          <header class="major">
+            <h3>Reach out or see more of me</h3>
+          </header>
+          <ul class="icons">
+            <!-- YouTube -->
+            <li>
+              <a
+                href="https://youtube.com/tobeonwura"
+                target="_blank"
+                class="icon brands fa-youtube"
+              >
+                <span class="label">YouTube</span>
+              </a>
+            </li>
 
-      <!-- Footer -->
-      <footer id="footer">
-        <section>
-          <form method="post" action="#">
-            <div class="fields">
-              <div class="field">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" />
-              </div>
-              <div class="field">
-                <label for="email">Email</label>
-                <input type="text" name="email" id="email" />
-              </div>
-              <div class="field">
-                <label for="message">Message</label>
-                <textarea name="message" id="message" rows="3"></textarea>
-              </div>
-            </div>
-            <ul class="actions">
-              <li><input type="submit" value="Send Message" /></li>
-            </ul>
-          </form>
+            <!-- X (formerly Twitter) -->
+            <li>
+              <a
+                href="https://x.com/tobeonwura"
+                target="_blank"
+                class="icon brands fa-x-twitter"
+              >
+                <span class="label">X</span>
+              </a>
+            </li>
+
+            <!-- Facebook -->
+            <li>
+              <a
+                href="https://facebook.com/tobeonwura"
+                target="_blank"
+                class="icon brands fa-facebook-f"
+              >
+                <span class="label">Facebook</span>
+              </a>
+            </li>
+
+            <!-- WhatsApp -->
+            <li>
+              <a
+                href="https://wa.me/23407089217259"
+                target="_blank"
+                class="icon brands fa-whatsapp"
+              >
+                <span class="label">WhatsApp</span>
+              </a>
+            </li>
+
+            <!-- Gmail (mailto link) -->
+            <li>
+              <a
+                href="mailto:tobeonwura@gmail.com"
+                class="icon solid fa-envelope"
+              >
+                <span class="label">Gmail</span>
+              </a>
+            </li>
+
+            <!-- LinkedIn -->
+            <li>
+              <a
+                href="https://linkedin.com/in/tobeonwura"
+                target="_blank"
+                class="icon brands fa-linkedin-in"
+              >
+                <span class="label">LinkedIn</span>
+              </a>
+            </li>
+
+            <!-- GitHub -->
+            <li>
+              <a
+                href="https://github.com/tobeonwura"
+                target="_blank"
+                class="icon brands fa-github"
+              >
+                <span class="label">GitHub</span>
+              </a>
+            </li>
+
+            <!-- Kaggle -->
+            <li>
+              <a
+                href="https://kaggle.com/tobeonwura"
+                target="_blank"
+                class="icon brands fa-kaggle"
+              >
+                <span class="label">Kaggle</span>
+              </a>
+            </li>
+          </ul>
         </section>
-        <section class="split contact">
-          <section class="alt">
-            <h3>Address</h3>
-            <p>
-              1234 Somewhere Road #87257<br />
-              Nashville, TN 00000-0000
-            </p>
-          </section>
-          <section>
-            <h3>Phone</h3>
-            <p><a href="#">(000) 000-0000</a></p>
-          </section>
-          <section>
-            <h3>Email</h3>
-            <p><a href="#">info@untitled.tld</a></p>
-          </section>
-          <section>
-            <h3>Social</h3>
-            <ul class="icons alt">
-              <li>
-                <a href="#" class="icon brands alt fa-twitter"
-                  ><span class="label">Twitter</span></a
-                >
-              </li>
-              <li>
-                <a href="#" class="icon brands alt fa-facebook-f"
-                  ><span class="label">Facebook</span></a
-                >
-              </li>
-              <li>
-                <a href="#" class="icon brands alt fa-instagram"
-                  ><span class="label">Instagram</span></a
-                >
-              </li>
-              <li>
-                <a href="#" class="icon brands alt fa-github"
-                  ><span class="label">GitHub</span></a
-                >
-              </li>
-            </ul>
-          </section>
-        </section>
-      </footer>
+      </div>
 
       <!-- Copyright -->
       <div id="copyright">
